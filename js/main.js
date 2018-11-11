@@ -1,4 +1,3 @@
-
 /*If hash is found, store info for it's zodiac sign and run function which displays the info*/
 if (location.hash != undefined) {
     switch (location.hash) {

@@ -256,9 +256,6 @@ if (location.hash != undefined) {
                 </p>`;
             zodiacInfo(image, signNameText, strengthsText, weaknessesText, likesText, dislikesText, descriptionText);
             break;
-
-        default:
-            errorMessage();
     }
 }
 
@@ -275,9 +272,4 @@ function zodiacInfo(imageSrc, signNameText, strengthsText, weaknessesText, likes
     document.getElementById("dislikes").textContent = dislikesText;
     document.getElementById("description").innerHTML = descriptionText;
 
-}
-
-/*Display error message*/
-function errorMessage() {
-    document.getElementById("error-div").style.display = "block";
 }

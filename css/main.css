@@ -1,4 +1,36 @@
-#sign-info, #error-div {
+body {
+    font-family: 'Poppins', sans-serif;
+    /*background: url("https://upload.wikimedia.org/wikipedia/commons/d/d0/BigdipISS.jpg");
+    background-size: cover;
+    background-position: center;*/
+    background-color: #2D6073;
+    color: white;
+}
+.logo {
+    color: #F2B8A4;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+.dropdown-toggle {
+    color: white;
+    background-color: #e5a590;
+    border-color: #e5a590;
+}
+.dropdown-toggle:hover, .dropdown-toggle:active {
+    background-color: #eda48b;
+    border-color: #eda48b;
+}
+.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(242,184,164,.25);
+}
+a:hover {
+    color: #F2B8A4;
+    text-decoration: none;
+}
+.cool-font {
+    font-family: 'Righteous', cursive;
+}
+#sign-info {
     display:none;
 }
 #image {

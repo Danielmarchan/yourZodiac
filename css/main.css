@@ -1,3 +1,7 @@
 #sign-info, #error-div {
     display:none;
 }
+#image {
+    width: 175;
+    height: 175px;
+}

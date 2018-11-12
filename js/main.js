@@ -2,7 +2,7 @@
 if (location.hash != undefined) {
     switch (location.hash) {
         case "#Aquarius":
-            image = "img/aquarius.jpg";
+            image = "img/aquarius.webp";
             signNameText = "Aquarius";
             strengthsText = "Progressive, original, independent, humanitarian";
             weaknessesText = "Runs from emotional expression, temperamental, uncompromising, aloof";
@@ -31,7 +31,7 @@ if (location.hash != undefined) {
             break;
 
         case "#Pisces":
-            image = "img/pisces.jpg";
+            image = "img/pisces.webp";
             signNameText = "Pisces";
             strengthsText = "Compassionate, artistic, intuitive, gentle, wise, musical";
             weaknessesText = "Fearful, overly trusting, sad, desire to escape reality, can be a victim or a martyr";
@@ -57,7 +57,7 @@ if (location.hash != undefined) {
             break;
 
         case "#Aries":
-            image = "img/aries.jpg"
+            image = "img/aries.webp"
             signNameText = "Aries";
             strengthsText = "Courageous, determined, confident, enthusiastic, optimistic, honest, passionate";
             weaknessesText = "Impatient, moody, short-tempered, impulsive, aggressive";
@@ -77,7 +77,7 @@ if (location.hash != undefined) {
             break;
 
         case "#Taurus":
-            image = "img/taurus.jpg";
+            image = "img/taurus.webp";
             signNameText = "Taurus";
             strengthsText = "Reliable, patient, practical, devoted, responsible, stable";
             weaknessesText = "Stubborn, possessive, uncompromising";
@@ -97,7 +97,7 @@ if (location.hash != undefined) {
             break;
 
         case "#Gemini":
-            image = "img/gemini.jpg";
+            image = "img/gemini.webp";
             signNameText = "Gemini";
             strengthsText = "Gentle, affectionate, curious, adaptable, ability to learn quickly and exchange ideas";
             weaknessesText = "Nervous, inconsistent, indecisive";
@@ -117,7 +117,7 @@ if (location.hash != undefined) {
             break;
 
         case "#Cancer":
-            image = "img/cancer.jpg";
+            image = "img/cancer.webp";
             signNameText = "Cancer";
             strengthsText = "Tenacious, highly imaginative, loyal, emotional, sympathetic, persuasive";
             weaknessesText = "Moody, pessimistic, suspicious, manipulative, insecure";
@@ -137,7 +137,7 @@ if (location.hash != undefined) {
             break;
 
         case "#Leo":
-            image = "img/leo.jpg";
+            image = "img/leo.webp";
             signNameText = "Leo";
             strengthsText = "Creative, passionate, generous, warm-hearted, cheerful, humorous";
             weaknessesText = "Arrogant, stubborn, self-centered, lazy, inflexible";
@@ -154,7 +154,7 @@ if (location.hash != undefined) {
             break;
 
         case "#Virgo":
-            image = "img/virgo.jpg";
+            image = "img/virgo.webp";
             signNameText = "Virgo";
             strengthsText = "Loyal, analytical, kind, hardworking, practical";
             weaknessesText = "Shyness, worry, overly critical of self and others, all work and no play";
@@ -174,7 +174,7 @@ if (location.hash != undefined) {
             break;
 
         case "#Libra":
-            image = "img/libra.jpg";
+            image = "img/libra.webp";
             signNameText = "Libra";
             strengthsText = "Cooperative,diplomatic, gracious, fair-minded, social";
             weaknessesText = "Indecisive, avoids confrontations, will carry a grudge, self-pity";
@@ -194,7 +194,7 @@ if (location.hash != undefined) {
             break;
 
         case "#Scorpio":
-            image = "img/scorpio.jpg";
+            image = "img/scorpio.webp";
             signNameText = "Scorpio";
             strengthsText = "Resourceful, brave, passionate, stubborn, a true friend";
             weaknessesText = "Distrusting, jealous, secretive, violent";
@@ -214,7 +214,7 @@ if (location.hash != undefined) {
             break;
 
         case "#Sagittarius":
-            image = "img/sagittarius.jpg";
+            image = "img/sagittarius.webp";
             signNameText = "Sagittarius";
             strengthsText = "Generous, idealistic, great sense of humor";
             weaknessesText = "Promises more than can deliver, very impatient, will say anything no matter how undiplomatic";
@@ -237,7 +237,7 @@ if (location.hash != undefined) {
             break;
 
         case "#Capricorn":
-            image = "img/capricorn.jpg";
+            image = "img/capricorn.webp";
             signNameText = "Capricorn";
             strengthsText = "Responsible, disciplined, self-control, good managers";
             weaknessesText = "Know-it-all, unforgiving, condescending, expecting the worst";

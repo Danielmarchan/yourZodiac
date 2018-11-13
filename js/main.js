@@ -1,6 +1,15 @@
+/*Variable declarations*/
+var image;
+var signNameText;
+var strengthsText;
+var weaknessesText;
+var likesText;
+var dislikesText;
+var descriptionText;
+
 /*If hash is found, store info for it's zodiac sign and run function which displays the info*/
-if (location.hash != undefined) {
-    switch (location.hash) {
+if (window.location.hash != undefined) {
+    switch (window.location.hash) {
         case "#Aquarius":
             image = "img/aquarius.webp";
             signNameText = "Aquarius";

@@ -11,6 +11,9 @@ body {
     font-size: 3rem;
     margin-bottom: 5rem;
 }
+.dropdown-menu {
+  z-index: 25000 !important;
+}
 .dropdown-toggle {
     color: white;
     background-color: #e5a590;

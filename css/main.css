@@ -11,20 +11,43 @@ body {
     font-size: 3rem;
     margin-bottom: 5rem;
 }
-.dropdown-menu {
-  z-index: 25000 !important;
-}
-.dropdown-toggle {
+#dd-btn {
     color: white;
-    background-color: #e5a590;
-    border-color: #e5a590;
+    background-color: #EDA48B;
 }
-.dropdown-toggle:hover, .dropdown-toggle:active {
-    background-color: #eda48b;
-    border-color: #eda48b;
+#dd-text {
+    text-overflow: ellipsis;
+    text-align: left;
+    display: inline-block;
+    margin-right: 10px;
 }
-.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(242,184,164,.25);
+#dd-btn .fas {
+    vertical-align: top;
+    float: right;
+}
+#dd-menu {
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: 5px;
+    background-color: white;
+    color: #333;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    border-radius: .25rem;
+}
+#dd-menu > div {
+    padding: 15px;
+}
+#dd-menu img {
+    max-width: 100px;
+}
+#dd-menu h6 {
+    margin: 10px auto;
+}
+.dd-item {
+    cursor: pointer;
 }
 a:hover {
     color: #F2B8A4;
@@ -36,4 +59,11 @@ a:hover {
 #image {
     width: 200px;
     height: 200px;
+}
+
+@media (max-width: 600px) {
+    #dd-menu {
+        left: 5%;
+        margin-left: 0px;
+    }
 }

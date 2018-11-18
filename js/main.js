@@ -1,3 +1,5 @@
+/*global $*/
+
 /*Variable declarations*/
 var image;
 var signNameText;
@@ -266,6 +268,22 @@ if (window.location.hash != undefined) {
             break;
     }
 }
+
+//jQuery Menu
+$("#dd-btn").click(function () {
+    $("#dd-menu").slideToggle();
+});
+
+$(".dd-item").hover(function() {
+    $(this).siblings().css("opacity", "0.5");
+}, function() {
+    $(".dd-item").css("opacity", "1");
+});
+
+$(".dd-item").click(function() {
+    window.location = "#" + $(this).find("h6").text();
+    window.location.reload();
+});
 
 /*Display zodiac info on HTML*/
 function zodiacInfo(imageSrc, signNameText, strengthsText, weaknessesText, likesText, dislikesText, descriptionText) {
